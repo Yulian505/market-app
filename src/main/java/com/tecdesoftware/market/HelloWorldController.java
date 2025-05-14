@@ -10,6 +10,6 @@ public class HelloWorldController {
 
     @GetMapping("/hola")
     public String saludar() {
-        return "Hello World Alpizar!";
+        return "Hello World \uD83D\uDCBB!";
     }
 }
